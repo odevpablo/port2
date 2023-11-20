@@ -1,38 +1,229 @@
 .App {
   text-align: center;
+  height: 200vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 300vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #73777B;
+  color: #15133C;
+  font-family: 'Kanit', sans-serif;
   font-size: calc(10px + 2vmin);
-  color: white;
+  
+}
+.persondev{
+  top: 30px;
+  position: absolute;
+  width: 170px;
+  height: 30px;
+  margin: 10px;
+  right: 30px;
+  border: 1px solid;
+  border-radius: 2em;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.typewriter {
+  overflow: hidden;
+  border-right: 0.15em solid #EC994B; 
+  white-space: nowrap;
+  font-size: 20px;
+  margin: 0 auto;
+  position: absolute;
+  top: 250px;
+  font-weight: bold;
+  
+}
+.from{
+  top: 320px;
+  position: absolute;
+  height: 200px;
+  width: 50vw;
+}
+.from a{
+  color: inherit;
+  text-decoration: none;
+}
+svg{
+  top: 20px;
+  padding: 50px;
+  margin: 30px;
+}
+.linebreak{
+  top: 80%;
+  position: absolute;
+}
+.viewcarousel{
+  top: 120%;
+  position: absolute;
+  width: 60vw;
+  height: 400px;
+
+}
+.rotated-icon {
+  transition: transform 0.5s ease; /* Adicione uma transição suave se desejar */
+  transform: rotate(0deg);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.slider{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide-button{
+  border-radius: 0.5em;
+  width: 300px;
+  height: 400px;
+  background-color: #F1EEE9;
+  border: none;
+}
+img{
+  border-radius: 3px;
+  top: 110px;
+  position: absolute;
+}
+
+.elements{
+ position: absolute;
+ align-items: center;
+ width: 290px;
+ top: 310px;
+ font-family: 'Kanit', sans-serif;
+ color: #15133C;
+ font-weight: bold;
+}
+.elements svg{
+  margin: 0px;
+}
+
+.about{
+  position: absolute;
+  width: 80vw;
+  height: 500px;
+  top: 220%;
+}
+.about p{
+  top: 140px;
+  left: 200px;
+  position: absolute;
+  width: 25vw;
+  font-size: 19px;
+}
+.profile{
+  border-radius: 50%;
+  right: 200px;
+}
+
+@media (max-width: 1230px) {
+  
+  .from{
+    width: 90vw;
   }
-  to {
-    transform: rotate(360deg);
+  .typewriter{
+    font-size: 12px;
+  }
+  .from{
+    display: flex;
+  }
+  .from h2{
+    left: 30%;
+    position: absolute;
+  }
+  .elements{
+    left: 30%;
+  }
+}
+@media (max-width: 652px) {
+  .App{
+    width: 100vw;
+    height: 200vh;
+  }
+  .App-header{
+    height: 200vh;
+  }
+  .from {
+    left: 5%;
+  }
+  
+} 
+@media (max-width: 566px){
+  .App-header{
+    width: 120vw;
+  }
+
+  
+  .from h2{
+    top: 0%;
+    left: 35%;
+  }
+}
+@media (max-width: 524px) {
+  .App-header{
+    width: 140vw;
+  }
+  .from{
+    left: 10%;
+  }
+}
+@media (max-width: 473px){
+  .from{
+    left: 5%;
+  }
+  .from h2{
+    left: 40%;
+    width: 60vw;
+  }
+  svg{
+    margin-top: 55%;
+  } 
+}
+@media (max-width: 420px) {
+  .App-header{
+    width: 152vw;
+  }
+  .from h2{
+    left: 50%;
+  }
+}
+@media (max-width: 390px) {
+  .App-header{
+    width: 162vw;
+  }
+  .from h2{
+    left: 50%;
+    width: 70vw;
+  }
+}
+@media (max-width: 372px) {
+  .App-header{
+    width: 182vw;
+  }
+  svg{
+    
+    width: 30px;
+  }
+}
+@media (max-width: 345px) {
+  .App-header{
+    width: 175vw;
+  } 
+}
+@media (max-width: 321px) {
+  .App-header{
+    width: 178.5vw;
+  }
+  .App{
+    width: 100vw;
+  }
+  svg{
+    
+    width: 25px;
   }
 }
