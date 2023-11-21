@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className='persondev'> by:odevpablo</div>
+        <div className='persondev'> by: odevpablo</div>
         <TypewriterEffect/>
           <From/>
           <LineBreak/> 
