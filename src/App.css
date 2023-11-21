@@ -148,6 +148,12 @@ img{
     position: absolute;
     top: 65px;
   }
+  .linebreak{
+    top: 93%;
+  }
+  .viewcarousel{
+    top: 80%;
+  }
   
   .slider{
    top: 70%;

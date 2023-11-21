@@ -11,10 +11,7 @@ function App() {
         <div className='persondev'>odevpablo</div>
           <From/>
           <LineBreak/> 
-          <section className='viewcarousel'>
-            <Carousel/>
-          </section>
-            
+          <Carousel/>  
       </header>
      
     </div>

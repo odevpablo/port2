@@ -18,6 +18,7 @@ const Carousel = () => {
     };
 
     return (
+        <div className="viewcarousel">
         <Slider {...settings} className="slider">
         <div className="slide-item">
           <h3>Plataforma iDisk</h3>
@@ -51,6 +52,7 @@ const Carousel = () => {
           </button>
         </div>
       </Slider>
+      </div>
     );
 };
 
