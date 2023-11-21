@@ -142,13 +142,16 @@ img{
     position: static; 
     margin-top: 10px; 
   }
+  .about{
+    top: 120%;
+  }
 
   .linebreak {
-    top: auto; 
+    top: 80%; 
   }
 
   .viewcarousel {
-    top: auto; 
+    top: 100%; 
     width: 100%; 
   }
  
@@ -197,7 +200,7 @@ img{
  
 @media (max-width: 320px){
   .about{
-    top: 250%;
+    top: 200%;
   }
   .profile{
    
