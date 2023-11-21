@@ -66,7 +66,10 @@
   position: absolute;
   width: 60vw;
   height: 400px;
-
+}
+.viewcarousel a{
+  text-decoration: none;
+  color: inherit;
 }
 
 .slider{
@@ -89,6 +92,7 @@ img{
 }
 
 .elements{
+  
  position: absolute;
  align-items: center;
  width: 290px;
@@ -106,8 +110,10 @@ img{
   top: 210%;
   text-align: center;
   padding: 20px;
+  
 }
 .about p{
+  
   top: 140px;
   left: 200px;
   position: absolute;
@@ -154,14 +160,19 @@ img{
     top: 100%; 
     width: 100%; 
   }
+  .viewcarousel a{
+    position: absolute;
+    top: 80px;
+    left: 46%;
+  }
  
   img{
-    width: 245px;
+    width: 286px;
   }
   
   .elements p{
     position: absolute;
-    left: 5px;
+    left: 27px;
     font-size: 10px;
     width: 83%;
   }
