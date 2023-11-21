@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   height: 200vh;
+  width: 100%;
 }
 
 
@@ -44,15 +45,16 @@
   position: absolute;
   height: 200px;
   width: 50vw;
+  text-align: center;
 }
 .from a{
   color: inherit;
   text-decoration: none;
 }
-svg{
-  top: 20px;
-  padding: 50px;
-  margin: 30px;
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
 }
 .linebreak{
   top: 80%;
@@ -65,10 +67,7 @@ svg{
   height: 400px;
 
 }
-.rotated-icon {
-  transition: transform 0.5s ease; /* Adicione uma transição suave se desejar */
-  transform: rotate(0deg);
-}
+
 
 
 .slider{
@@ -120,70 +119,54 @@ img{
   border-radius: 50%;
   right: 200px;
 }
-
-@media (max-width: 1230px) {
-  
-  .from{
-    width: 90vw;
-  }
-  .typewriter{
-    font-size: 12px;
-  }
-  .from{
-    display: flex;
-  }
-  .from h2{
-    left: 30%;
-    position: absolute;
-  }
-  .elements{
-    left: 30%;
-  }
-}
+   
 @media (max-width: 652px) {
   .App{
-    width: 100vw;
-    height: 200vh;
+    height: 300vh;
+    
   }
   .App-header{
-    height: 200vh;
+    
+    height: 250%;
   }
+  svg{
+    margin: 5px;
+  }
+  
   .from {
-    left: 5%;
+    font-size: 14px;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .from h2{
+    width: 100px;
+    position: absolute;
+  }
+  .icons{
+    position: absolute;
+    top: 65px;
+  }
+  
+  .slider{
+   top: 70%;
   }
   
 } 
-@media (max-width: 566px){
-  .App-header{
-    width: 120vw;
-  }
+@media (max-width: 465px){
+.App{
+  
+}
+.App-header{
+  
+  height: 200%;
+}
+} 
+
+ 
 
   
-  .from h2{
-    top: 0%;
-    left: 35%;
-  }
-}
-@media (max-width: 524px) {
-  .App-header{
-    width: 140vw;
-  }
-  .from{
-    left: 10%;
-  }
-}
-@media (max-width: 473px){
-  .from{
-    left: 5%;
-  }
-  .from h2{
-    left: 40%;
-    width: 60vw;
-  }
-  svg{
-    margin-top: 55%;
-  } 
-}
 @media (max-width: 420px) {
   .App-header{
     width: 152vw;
@@ -193,37 +176,13 @@ img{
   }
 }
 @media (max-width: 390px) {
-  .App-header{
-    width: 162vw;
-  }
-  .from h2{
-    left: 50%;
-    width: 70vw;
-  }
+  
 }
 @media (max-width: 372px) {
-  .App-header{
-    width: 182vw;
-  }
-  svg{
-    
-    width: 30px;
-  }
+ 
 }
 @media (max-width: 345px) {
-  .App-header{
-    width: 175vw;
-  } 
+  
 }
 @media (max-width: 321px) {
-  .App-header{
-    width: 178.5vw;
-  }
-  .App{
-    width: 100vw;
-  }
-  svg{
-    
-    width: 25px;
-  }
 }

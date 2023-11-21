@@ -2,7 +2,7 @@ import './App.css';
 import From from './components/from';
 import Carousel from './components/slideInfo';
 import LineBreak from './components/linebreak';
-import About from './components/about';
+
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           <section className='viewcarousel'>
             <Carousel/>
           </section>
-            <About/>
+            
       </header>
      
     </div>
