@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const TypewriterEffect = () => {
   const [text, setText] = useState('');
-  const originalText = 'Olá, este é o meu portfólio. Meu objetivo é mostrar alguns projetos que desenvolvi e considero interessantes.';
+  const originalText = 'Olá, este é o meu portfólio dev.';
   let index = 0;
 
   useEffect(() => {
