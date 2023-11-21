@@ -196,7 +196,11 @@ img{
 } 
  
 @media (max-width: 320px){
+  .about{
+    top: 210%;
+  }
   .profile{
+   
     left: 14%;
   }
 
