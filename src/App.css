@@ -178,10 +178,10 @@ img{
   }
   
 } 
-@media (max-width: 465px){
+@media (max-width: 320px){
+  .profile{
+    left: 14%;
+  }
 
-.App-header{
-  height: 200%;
-}
 } 
 
