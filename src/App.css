@@ -209,10 +209,13 @@ img{
   .about p{
     top: 80%;
   }
+  img{
+    width: 282px;
+  }
   
 } 
  
-@media (max-width: 357px){
+@media (max-width: 361px){
   .about{
     top: 200%;
   }
@@ -221,6 +224,9 @@ img{
   }
   .profile{
     left: 14%;
+  }
+  img{
+    width: 13.6%;
   }
 
 } 
