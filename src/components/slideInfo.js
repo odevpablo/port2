@@ -27,7 +27,7 @@ const Carousel = () => {
           <div className="elements">
             <p>A iDisk é minha plataforma onde os usuários podem acessar cursos
             voltados para a área de desenvolvimento web.</p>
-            <FaGitAlt size={25} /> 
+            <a href='https://github.com/odevpablo/idisk'><FaGitAlt size={25} /></a> 
           </div>
           </button>
         </div>
@@ -37,7 +37,7 @@ const Carousel = () => {
           <img src={Node} width={285}/>
           <div className="elements">
             <p>Desenvolvi esta CRUD em Node.js com o intuito de revisar conceitos básicos do Node em uma API.</p>
-            <FaGitAlt size={25}/> 
+            <a><FaGitAlt size={25}/></a> 
           </div>
           </button>
         </div>
@@ -47,7 +47,7 @@ const Carousel = () => {
           <img src={Cep} width={285}/>
           <div className="elements">
             <p>Projeto desenvolvido em Angular no qual foi criada uma API que retorna o endereço do CEP procurado.</p>
-            <FaGitAlt size={25}/> 
+            <a><FaGitAlt size={25}/></a> 
           </div>
           </button>
         </div>

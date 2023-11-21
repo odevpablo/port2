@@ -69,8 +69,6 @@
 
 }
 
-
-
 .slider{
   height: 500px;
   display: flex;
@@ -99,15 +97,13 @@ img{
  color: #15133C;
  font-weight: bold;
 }
-.elements svg{
-  margin: 0px;
-}
+
 
 .about{
   position: absolute;
   width: 80vw;
   height: 500px;
-  top: 220%;
+  top: 210%;
   text-align: center;
   padding: 20px;
 }
@@ -116,7 +112,7 @@ img{
   left: 200px;
   position: absolute;
   width: 25vw;
-  font-size: 19px;
+  font-size: 16px;
 }
 .profile{
   border-radius: 50%;
@@ -124,61 +120,81 @@ img{
 }
    
 @media (max-width: 652px) {
-  .App{
-    height: 300vh;
-    
+  .App {
+    height: 120vh; 
   }
-  .App-header{
-    
-    height: 250%;
+
+  .App-header {
+    height: 120vh; 
   }
-  svg{
-    margin: 5px;
-  }
-  .persondev{
-    right: 0;
-  }
-  .typewriter{
+
+  .typewriter {
     font-size: 16px;
   }
-  
+
   .from {
     font-size: 14px;
-    width: 200px;
-    display: flex;
-    justify-content: center;
+    width: 100%; 
     text-align: center;
   }
-  
-  .icons{
-    position: absolute;
-    top: 65px;
+
+  .icons {
+    position: static; 
+    margin-top: 10px; 
   }
-  .linebreak{
-    top: 93%;
+
+  .linebreak {
+    top: auto; 
+  }
+
+  .viewcarousel {
+    top: auto; 
+    width: 100%; 
+  }
+ 
+  img{
+    width: 245px;
+  }
+  
+  .elements p{
+    position: absolute;
+    left: 5px;
+    font-size: 10px;
+    width: 83%;
+  }
+
+  .about p {
+    top: 60%; 
+    left: 0;
+    width: 100%; 
+    font-size: 16px;
+  }
+
+  .slider {
+    top: auto; 
+  }
+
+  .profile {
+    position: static; 
+    width: 100%; 
+    margin: 10px auto; 
+  }
+}
+  
+
+@media (max-width: 510px){
+  .profile{
+    left: 14%;
+  }
+  .from{
+    width: 180px;
   }
   .viewcarousel{
-    top: 80%;
-    width: 120%;
-  }
-  .about p{
-    top: 310px;
-    width: auto;
-    font-size: 16px;
-    left: 0;
-    display: flex;
-    }
-  
-  .slider{
-   top: 70%;
-  }
-  .profile{
-    position: absolute;
-    left: 15%;
-    width: 200px;
+    width: 80vw;
   }
   
 } 
+ 
 @media (max-width: 320px){
   .profile{
     left: 14%;
