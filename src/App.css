@@ -354,15 +354,29 @@ img{
       left: 2%;
     }
   }
-  @media (max-width: 374px) {
+  
+  @media (max-width: 384px) {
     .slide-button img{
-      left: 0%;
+      left: 1%;
+    }
+  }
+  @media (max-width: 380px) {
+    .slide-button img{
+      left: 0.5%;
     }
     .elements p{
-      left: 10%;
+      left: 11%;
     }
     .slide-button svg{
       left: 45%;
+    }
+  }
+  @media (max-width: 374px) {
+    .slide-button img{
+      left: 0;
+    }
+    .elements p{
+      left: 10%;
     }
   }
   @media (max-width: 321px) {
