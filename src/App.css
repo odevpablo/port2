@@ -354,6 +354,17 @@ img{
       left: 2%;
     }
   }
+  @media (max-width: 374px) {
+    .slide-button img{
+      left: 0%;
+    }
+    .elements p{
+      left: 10%;
+    }
+    .slide-button svg{
+      left: 45%;
+    }
+  }
   @media (max-width: 321px) {
     .elements p{
       left: 2%;
