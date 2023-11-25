@@ -86,6 +86,7 @@
   background-color: #15133C;
   border: none;
 }
+
 img{
   border-radius: 3px;
   top: 110px;
@@ -126,6 +127,9 @@ img{
   right: 200px;
 }
    
+
+
+
 @media (max-width: 652px) {
   .App {
     height: 120vh; 
@@ -161,19 +165,48 @@ img{
     top: 100%; 
     width: 100%; 
   }
-  .viewcarousel a{
+  .viewcarousel a {
     position: absolute;
-    top: 80px;
-    left: 46%;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
   }
  
-  img{
-    width: 286px;
+  img {
+    display: flex;
+    top: 0;
+    width: 100%; 
+  }
+  .slide-button { 
+    position: relative;
+    overflow: hidden;
+  }
+  .slide-button a {
+    width: 100%; 
+    height: 100%;
+    color: inherit;
+  
+  }
+  .slide-item {
+    width: 100%;
+    text-align: center;
+  }
+
+  .slide-button {
+    width: 100%;
+  }
+
+  .slide-button img {
+    width: 100%; 
+    max-width: 250px; 
+    left: 2px;
+    height: auto; 
   }
   
-  .elements p{
+  .elements p {
     position: absolute;
-    left: 27px;
+    left: 5px;
+   
     font-size: 10px;
     width: 83%;
   }
@@ -188,7 +221,7 @@ img{
   .slider {
     top: auto; 
   }
-
+  
   .profile {
     position: static; 
     width: 100%; 
@@ -198,37 +231,34 @@ img{
   
 
 @media (max-width: 510px){
-  .profile{
+  .profile {
     left: 14%;
   }
-  .from{
+  .from {
     width: 180px;
   }
-  .viewcarousel{
+  .viewcarousel {
     width: 80vw;
   }
-  .about p{
+  .about p {
     top: 80%;
   }
-  img{
-    width: 280px;
+  img {
+    width: 100%; 
   }
-  
-} 
- 
+}
+
 @media (max-width: 361px){
-  .about{
+  .about {
     top: 200%;
   }
-  .about p{
+  .about p {
     top: 60%;
   }
-  .profile{
+  .profile {
     left: 14%;
   }
-  img{
-    width: 13.6%;
+  img {
+    width: 100%; 
   }
-
-} 
-
+}
