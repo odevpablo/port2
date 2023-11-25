@@ -132,10 +132,12 @@ img{
 
 @media (max-width: 652px) {
   .App {
+    width: auto;
     height: 150vh; 
   }
 
   .App-header {
+    width: auto;
     height: 150vh; 
   }
 
@@ -163,7 +165,7 @@ img{
 
   .viewcarousel {
     top: 100%; 
-    width: 100%; 
+    width: 80%; 
   }
   .viewcarousel a {
     position: absolute;
@@ -182,8 +184,8 @@ img{
     overflow: hidden;
   }
   .slide-button a {
-    position: absolute;
-    top: 0;
+    
+    top: 10%;
     width: 100%; 
     height: 40%;
     color: inherit;
@@ -200,23 +202,23 @@ img{
 
   .slide-button img {
     width: 100%; 
-    max-width: 280px; 
-    left: 10px;
+    max-width: 300px; 
+    left: 20%;
     height: auto; 
-    margin-top: 30%;
+    margin-top: 10%;
   }
   
   .elements p {
-    display: flex;
+    position: absolute;
     margin-top: 0;
-    margin-left: 15%;
+    left: 40%;
     font-size: 10px;
     width: 80%;
   }
   .elements svg{
     position: absolute;
-    top: 220%;
-    left: 50%;
+    margin-top: 20%;
+    left: 76%;
   }
   
   .about p {
@@ -238,7 +240,7 @@ img{
 }
   
 
-@media (max-width: 510px){
+@media (max-width: 517px){
   .profile {
     left: 14%;
   }
@@ -249,15 +251,16 @@ img{
     width: 80vw;
   }
   .slide-button img{
-    left: 6%;
+    left: 12%;
+    margin-top: 12%;
     width: 100%;
     max-width: 300px; 
   }
   .elements p{
-    margin-left: 17%;
+    left: 27%;
   }
   .slide-button svg{
-    left: 52%;
+    left: 62%;
   }
   .about p {
     top: 80%;
@@ -266,18 +269,25 @@ img{
     width: 100%; 
   }
 }
-@media (max-width: 473px) {
+@media (max-width: 471px) {
   .slide-button img {
-    max-width: 330px; 
-    margin-left: 1%;
+    max-width: 320px; 
+    margin-top: 15%;
+    left: 8%;
+    
   }
   .elements p{
-    margin-left: 25%;
+    left: 23%;
   }
   .slide-button svg{
-    left: 60%;
+    left: 59%;
   }
   
+}
+@media (max-width: 442px) {
+  .slide-button img{
+    left: 5%;
+  }
 }
 
 @media (max-width: 361px){
@@ -297,7 +307,7 @@ img{
     left: 0;
   }
   .elements p{
-    margin-left: 4%;
+    left: 3%;
   }
   .slide-button svg{
     left: 40%;
