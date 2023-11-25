@@ -12,7 +12,7 @@
   align-items: center;
   justify-content: center;
   background-color: #73777B;
-  color: #15133C;
+  color: #0a091e;
   font-family: 'Kanit', sans-serif;
   font-size: calc(10px + 2vmin);
   
@@ -31,7 +31,7 @@
 
 .typewriter {
   overflow: hidden;
-  border-right: 0.15em solid #EC994B; 
+  border-right: 0.15em solid #ff7b00; 
   white-space: nowrap;
   font-size: 20px;
   margin: 0 auto;
@@ -40,6 +40,7 @@
   max-width: 600px;
   margin: 0 auto;
   font-weight: bold;
+  color: #ffffff;
 }
 .from{
   top: 320px;
@@ -82,7 +83,7 @@
   border-radius: 0.5em;
   width: 300px;
   height: 400px;
-  background-color: #F1EEE9;
+  background-color: #15133C;
   border: none;
 }
 img{
@@ -98,7 +99,7 @@ img{
  width: 290px;
  top: 310px;
  font-family: 'Kanit', sans-serif;
- color: #15133C;
+ color: #ffffff;
  font-weight: bold;
 }
 
