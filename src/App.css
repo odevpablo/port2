@@ -11,7 +11,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #73777B;
+  background-color: #5d6063;
   color: #0a091e;
   font-family: 'Kanit', sans-serif;
   font-size: calc(10px + 2vmin);
@@ -115,7 +115,7 @@ img{
   
 }
 .about p{
-  
+  color: #ffffff;
   top: 140px;
   left: 200px;
   position: absolute;
