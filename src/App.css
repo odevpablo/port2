@@ -248,6 +248,9 @@ img{
   .viewcarousel {
     width: 80vw;
   }
+  .slide-button img{
+    max-width: 280px; 
+  }
   .about p {
     top: 80%;
   }
