@@ -46,7 +46,7 @@ const Carousel = () => {
         <div className="slide-item">
           <h3>Rastreador de CEP</h3>
           <button className="slide-button">
-          <a href="https://github.com/odevpablo/searchcep"><img src={Cep} width={285}/></a>
+          <a href="https://searchcep-odevpablo.netlify.app/"><img src={Cep} width={285}/></a>
           <div className="elements">
             <p>Projeto desenvolvido em Angular no qual foi criada uma API que retorna o endereço do CEP procurado.</p>
             <a href="https://github.com/odevpablo/searchcep"><FaGitAlt size={25}/></a> 
