@@ -1,18 +1,23 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3e4451;
   height: 200vh;
   width: 100%;
 }
 
 
 .App-header {
-  min-height: 300vh;
+  min-height: 330vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #525960;
-  color: #0a091e;
+  color: #efedf2;
+ 
   font-family: 'Kanit', sans-serif;
   font-size: calc(10px + 2vmin);
   
@@ -31,6 +36,10 @@
   margin: 0 auto;
   font-weight: bold;
   color: #ffffff;
+}
+.expo {
+  display: flex;
+  flex-direction: row;
 }
 .from{
   top: 320px;
@@ -52,39 +61,9 @@
   top: 80%;
   position: absolute;
 }
-.viewcarousel{
-  top: 120%;
-  position: absolute;
-  width: 60vw;
-  height: 400px;
-}
-.viewcarousel a{
-  text-decoration: none;
-  color: inherit;
-}
 
-.slider{
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.slide-button{
-  border-radius: 0.5em;
-  width: 300px;
-  height: 400px;
-  background-color: #15133C;
-  border: none;
-}
-
-img{
-  border-radius: 3px;
-  top: 110px;
-  position: absolute;
-}
 
 .elements{
-  
  position: absolute;
  align-items: center;
  width: 290px;
@@ -94,47 +73,40 @@ img{
  font-weight: bold;
 }
 
-
-.about{
+.expo{
   position: absolute;
-  width: 80vw;
-  height: 500px;
-  top: 210%;
-  text-align: center;
-  padding: 20px;
+  top: 100%;
+}
+.about-container{
+  position: absolute;
+  top: 150%;
+  background-color: #e4e4e5;
+  border-radius: 0;
   
 }
-.about p{
-  color: #ffffff;
-  top: 140px;
-  left: 200px;
-  position: absolute;
-  width: 25vw;
-  font-size: 16px;
+.ant-tabs-tab-btn{
+  color: #3e4451;
 }
-.profile{
-  border-radius: 50%;
-  right: 200px;
+
+.about-container img {
+  left: 35%;
+  border: 1px solid #3e4451;
 }
-   
-
-
+.about-container p{
+  font-size: 20px;
+}
 
 @media (max-width: 652px) {
   .App {
     width: auto;
-    height: 150vh; 
+    height: 110%; 
   }
-
-  .App-header {
-    width: auto;
-    height: 150vh; 
-  }
-
   .typewriter {
     font-size: 16px;
   }
-
+  .expo {
+    flex-direction: column;
+ }
   .from {
     font-size: 14px;
     width: 100%; 
@@ -145,9 +117,16 @@ img{
     position: static; 
     margin-top: 10px; 
   }
-  .about{
-    top: 200%;
+  .about-container{
+    top: 320%;
+    
+    
   }
+  .about-container img{
+    margin-right: 20px; 
+  }
+
+
 
   .linebreak {
     top: 80%; 

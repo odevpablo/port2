@@ -7,7 +7,6 @@ const LineBreak = ()=>{
         <div className="linebreak">
          <IoChevronDownOutline size={50} />
          <h2>Projetos</h2>
-
         </div>
     );
 };
