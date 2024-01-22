@@ -219,131 +219,39 @@
   .viewcarousel {
     width: 80vw;
   }
-  .slide-button img{
-    left: 12%;
-    margin-top: 12%;
-    width: 100%;
-    max-width: 300px; 
-  }
   .elements p{
     left: 27%;
   }
-  .slide-button svg{
-    left: 62%;
+  .about-container{
+    height: 100%;
   }
-  .about p {
-    top: 80%;
+  .ant-tabs {
+    margin-top: 30%;
   }
-  img {
-    width: 100%; 
+  .about-container img{
+    top: 0;
+    left: 15%;
   }
-}
-@media (max-width: 471px) {
-  .slide-button img {
-    max-width: 320px; 
-    margin-top: 15%;
-    left: 8%;
-    
+  .ant-card-head-title{
+    margin-left: 50%;
   }
-  .elements p{
-    left: 23%;
+  .about-container p{
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
-  .slide-button svg{
-    left: 59%;
-  }
-  
-}
-@media (max-width: 442px) {
-  .slide-button img{
-    left: 5%;
-  }
-}
-@media (max-width: 435px) {
-  .slide-button img{
-    left: 4%;
-  }
-  .elements p{
-    left: 20%;
-  }
-  .slide-button svg{
-    left: 55%;
-  }
-}
+ }
 
-@media (max-width: 420px){
-  .about {
-    top: 200%;
-  }
-  .about p {
-    top: 60%;
-  }
-  .profile {
-    left: 14%;
-  }
-  img {
-    width: 100%; 
-  }
-  .slide-button img{
-    left: 3%;
-  }
-  .elements p{
-    left: 16%;
-  }
-  .slide-button svg{
-    left: 50%;
-  }
-  @media (max-width: 418px) {
-    .slide-button img{
-      max-width: 309px;
-      left: 4%;
-    }
-  }
-  @media (max-width: 411px) {
-    .slide-button img{
-      max-width: 300px;
-      left: 4%;
-    }
-  }
+
+
   @media (max-width: 405px) {
     
     .elements p{
       left: 14%;
     }
-    .slide-button svg{
-      left: 48%;
-    }
-  }
-  @media (max-width: 395px) {
-    .slide-button img{
-      left: 2.5%;
-    }
-  }
-  @media (max-width: 387px) {
-    .slide-button img{
-      left: 2%;
-    }
-  }
-  
-  @media (max-width: 384px) {
-    .slide-button img{
-      left: 1%;
-    }
-  }
-  @media (max-width: 380px) {
-    .slide-button img{
-      left: 0.5%;
-    }
-    .elements p{
-      left: 11%;
-    }
-    .slide-button svg{
-      left: 45%;
-    }
+   
   }
   @media (max-width: 374px) {
-    .slide-button img{
-      left: 0;
-    }
+   
     .elements p{
       left: 10%;
     }
@@ -352,8 +260,6 @@
     .elements p{
       left: 2%;
     }
-    .slide-button svg{
-      left: 38%;
-    }
+    
   }
-}
+

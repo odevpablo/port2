@@ -9,13 +9,16 @@ const tabList = [
   },
   {
     key: 'tab2',
-    tab: 'Habilidades',
+    tab: 'Info. adicionais',
   },
 ];
 const contentList = {
   tab1: <p>Graduando em Análise e Desenvolvimento de Sistemas com foco em linguagens de programação front-end,<br/>
    buscando oportunidades de carreira para aplicar meus conhecimentos em <br/>Angular, JavaScript , React.js, Spring, PHP, Node.js e MongoDB.</p>,
-  tab2: <p>content2</p>,
+  tab2: <p>Cidade: Montes Claros
+        <p>Idade: 22 anos</p>
+        
+  </p>,
 };
 
 
