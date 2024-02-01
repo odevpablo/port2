@@ -37,8 +37,8 @@ const projetosData = [
     title: "LADING PAGE",
     description: "Modelo de landing page escritório de advocacia",
     imageUrl: Ladingpage,
-    link: "https://mytemplateodevpablo.netlify.app/",
-    link2: "https://github.com/odevpablo/template1", 
+    link: "https://rpadv.netlify.app/",
+    link2: "https://github.com/odevpablo/ladingpage", 
   }
 ];
 
