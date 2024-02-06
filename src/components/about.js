@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Card } from 'antd';
 import Perfil from '../imgs/perfil.png'
+import { InfoCircleOutlined } from '@ant-design/icons';
 
 const tabList = [
   {
@@ -15,9 +16,9 @@ const tabList = [
 const contentList = {
   tab1: <p>Graduando em Análise e Desenvolvimento de Sistemas com foco em linguagens de programação front-end,<br/>
    buscando oportunidades de carreira para aplicar meus conhecimentos em <br/>Angular, JavaScript , React.js, Spring, PHP, Node.js e MongoDB.</p>,
-  tab2: <p>Cidade: Montes Claros
-        <p>Idade: 22 anos</p>
-        
+  tab2: <p> <InfoCircleOutlined  style={{position: 'absolute', left:'50%'}} />Montes Claros - MG
+        <p>22 anos</p>
+
   </p>,
 };
 

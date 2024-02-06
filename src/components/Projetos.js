@@ -39,6 +39,14 @@ const projetosData = [
     imageUrl: Ladingpage,
     link: "https://rpadv.netlify.app/",
     link2: "https://github.com/odevpablo/ladingpage", 
+  },
+  {
+    id: 5,
+    title: "Fast Barber",
+    description: "Descubra uma nova maneira de elevar sua experiência na barbearia! Com a minha plataforma de agendamento online!",
+    imageUrl: Ladingpage ,
+    link: "https://fastbarber.netlify.app/",
+    link2: "https://github.com/odevpablo/FastBarber", 
   }
 ];
 
