@@ -244,22 +244,12 @@
 
 
   @media (max-width: 405px) {
-    
-    .elements p{
-      left: 14%;
+    .App{
+      height: 450vh;
+    }
+    .about-container{
+      top: 420%;
     }
    
   }
-  @media (max-width: 374px) {
-   
-    .elements p{
-      left: 10%;
-    }
-  }
-  @media (max-width: 321px) {
-    .elements p{
-      left: 2%;
-    }
-    
-  }
-
+ 
