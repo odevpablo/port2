@@ -4,6 +4,7 @@ import iDisk from '../imgs/IDisk.png';
 import Crud from '../imgs/NODE JS.png';
 import Searchcep from '../imgs/searchcep.png'; 
 import Ladingpage from '../imgs/Landing page.png';
+import FastBarber from '../imgs/FastBarber.jpg';
 import { LinkOutlined } from "@ant-design/icons";
 
 const { Meta } = Card;
@@ -44,7 +45,7 @@ const projetosData = [
     id: 5,
     title: "Fast Barber",
     description: "Descubra uma nova maneira de elevar sua experiência na barbearia! Com a minha plataforma de agendamento online!",
-    imageUrl: Ladingpage ,
+    imageUrl: FastBarber,
     link: "https://fastbarber.netlify.app/",
     link2: "https://github.com/odevpablo/FastBarber", 
   }
@@ -67,7 +68,7 @@ const Projetos = () => {
       <Card
         key={projeto.id}
         hoverable
-        style={{ width: 240, margin: 3 }}
+        style={{ width: 240, margin: 1, borderRadius: 10}}
         cover={<img alt={projeto.title} style={{ height: 150 }} src={projeto.imageUrl} />}
         onClick={() => showModal(projeto.id)}
       >
@@ -84,7 +85,7 @@ const Projetos = () => {
         footer={[
           <Button style={{backgroundColor: '#0a091e'}} key="link" type="primary">
             <a href={projeto.link} target="_blank" rel="noopener noreferrer">
-              <LinkOutlined /> Deploy
+              <LinkOutlined /> Site
             </a>
           </Button>,
            <Button style={{backgroundColor: '#0a091e'}} key="link" type="primary">
